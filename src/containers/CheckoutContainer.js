@@ -28,23 +28,4 @@ const mapStateToProps = (state) => {
 
 const CheckoutContainer = connect(mapStateToProps, mapDispatchToProps)(Checkout);
 
-// const mapStateToProps = (state) => {
-//   return {
-//     states: {
-			// tab: 'F1',
-			// name: '',
-      // email: '',
-      // password: '',
-			// address1: '',
-      // address2: '',
-      // phone: '',
-			// credit: '',
-			// expire: '',
-			// CVV: '',
-			// billing: '',
-// 		};
-// }
-
-
-
 export default CheckoutContainer;

@@ -1,10 +1,9 @@
 import { combineReducers } from 'redux';
 import formReducer from './form.js'
-import appReducer from './app.js'
+// import appReducer from './app.js'
 
 
 let rootReducer = combineReducers({
-  appReducer,
   formReducer
 });
 //TODO: define the root reducer for this app

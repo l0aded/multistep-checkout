@@ -3,7 +3,6 @@ import App from './../app.js';
 
 
 const mapStateToProps = (state) => {
-  // console.log(state)
   return {
     tab: state.formReducer.tab || 'F1'
   };
